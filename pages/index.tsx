@@ -13,11 +13,11 @@ export default function Home() {
   //   console.log(printSectionRef)
   //   if (printSectionRef) {
   //     const content = printSectionRef.innerHTML;
-  //     const newWindow = window.open('', '_blank');
-
-  //     newWindow.document.write(content);
-  //     newWindow.print();
-  //     newWindow.close();
+  //     // const newWindow = window.open('', '_blank');
+ 
+  //     // newWindow.document.write(content);
+  //     window.print();
+  //     // window.close();
   //   }
   // };
 
@@ -33,12 +33,22 @@ export default function Home() {
 
 
       <main className={`${styles.main} ${styles.bodyy}`}>
-        <h1>hellow</h1>
+        <h2 className={styles.h2}>hellow</h2>
+        <h2 className={styles.h2}>hellow</h2>
+        <h2 className={styles.h2}>hellow</h2>
+        <h2 className={styles.h2}>hellow</h2>
+        <h2 className={styles.h2}>hellow</h2>
+        <h2 className={styles.h2}>hellow</h2>
+        <h2 className={styles.h2}>hellow</h2>
+        <h2 className={styles.h2}>hellow</h2>
+        <h2 className={styles.h2}>hellow</h2>
+        
+        
         <button className={styles.btn} onClick={print}>Print</button>
 
         <div className={styles.printsection}
           id='printsection2' >
-          <header className={styles.header}>Header content here</header>
+          <div className={styles.header}>Header content here</div> 
 
           <h3>
             <i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis doloribus odio earum veritatis quaerat quibusdam consequatur numquam voluptate beatae necessitatibus! Eaque reprehenderit perspiciatis hic itaque totam sequi autem, et quibusdam!
@@ -94,17 +104,22 @@ export default function Home() {
           <h3>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis doloribus odio earum veritatis quaerat quibusdam consequatur numquam voluptate beatae necessitatibus! Eaque reprehenderit perspiciatis hic itaque totam sequi autem, et quibusdam!
           </h3>
+          <h3>
+            If you take the element that you want to be the footer and set it to be position:fixed and bottom:0, when the page prints it will repeat that element at the bottom of each printed page. The same would work for a header element, just set top:0 instead.
 
-          <footer
+          </h3>
+          <h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis doloribus odio earum veritatis quaerat quibusdam consequatur numquam voluptate beatae necessitatibus! Eaque reprehenderit perspiciatis hic itaque totam sequi autem, et quibusdam!
+          </h3> 
+
+          <div className={styles.footer}
 
           >
             Footer content here
-          </footer>
+          </div>
         </div>
-        <h1>dfdfdfdsf</h1>
-        <h1>dfdfdfdsf</h1>
-        <h1>dfdfdfdsf</h1>
-        <h1>dfdfdfdsf</h1>
+        <h2 className={styles.h2}>hellow</h2>
+        <h2 className={styles.h2}>hellow</h2>
       </main>
 
 
